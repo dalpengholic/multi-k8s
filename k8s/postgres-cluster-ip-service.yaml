@@ -9,3 +9,6 @@ spec:
   ports:
     - port: 5432
       targetPort: 5432
+  env:           
+    - name: POSTGRES_PASSWORD             
+      value: password
